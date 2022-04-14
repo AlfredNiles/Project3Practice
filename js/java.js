@@ -3,9 +3,8 @@ $(document).ready( function() {
   // This controls the button for the c note.
 
   // This variable calls the cNote audio element in the HTML.
-  var ab1Note = document.getElementById('ab1Audio');
   var bb1Note = document.getElementById('bb1Audio');
-  var c1Note = document.getElementById('c1Audio');
+  var db1Note = document.getElementById('db1Audio');
   var db1Note = document.getElementById('db1Audio');
   var eb1Note = document.getElementById('eb1Audio');
   var f1Note = document.getElementById('f1Audio');
@@ -19,69 +18,96 @@ $(document).ready( function() {
   var g2Note = document.getElementById('g2Audio');
   var ab3Note = document.getElementById('ab3Audio');
 
-  // This turns our <div id= "c"> into a button that plays our audio file when the box is pressed.
+  // https://stackoverflow.com/questions/37735208/create-audio-element-dynamically-in-javascript
+  // Using appendChild section, but without some lines
   $('#ab1').mousedown(function(){
-
-    // This is a property that scrubs the audio file back to its start.
-    ab1Note.currentTime = 0;
-
-    // This plays the audio file.
+    var ab1Note      = document.createElement('audio');
+    ab1Note.src      = 'audiomp3/ab1.mp3';
+    ab1Note.type     = 'audio/mpeg';
     ab1Note.play();
   });
   $('#bb1').mousedown(function() {
-    bb1Note.currentTime = 0;
+    var bb1Note      = document.createElement('audio');
+    bb1Note.src      = 'audiomp3/bb1.mp3';
+    bb1Note.type     = 'audio/mpeg';
     bb1Note.play();
   });
   $('#c1').mousedown(function() {
-    c1Note.currentTime = 0;
+    var c1Note      = document.createElement('audio');
+    c1Note.src      = 'audiomp3/c1.mp3';
+    c1Note.type     = 'audio/mpeg';
     c1Note.play();
   });
   $('#db1').mousedown(function() {
-    db1Note.currentTime = 0;
+    var db1Note      = document.createElement('audio');
+    db1Note.src      = 'audiomp3/db1.mp3';
+    db1Note.type     = 'audio/mpeg';
     db1Note.play();
   });
   $('#eb1').mousedown(function() {
-    eb1Note.currentTime = 0;
+    var eb1Note      = document.createElement('audio');
+    eb1Note.src      = 'audiomp3/eb1.mp3';
+    eb1Note.type     = 'audio/mpeg';
     eb1Note.play();
   });
   $('#f1').mousedown(function() {
-    f1Note.currentTime = 0;
+    var f1Note      = document.createElement('audio');
+    f1Note.src      = 'audiomp3/f1.mp3';
+    f1Note.type     = 'audio/mpeg';
     f1Note.play();
   });
   $('#g1').mousedown(function() {
-    g1Note.currentTime = 0;
+    var g1Note      = document.createElement('audio');
+    g1Note.src      = 'audiomp3/g1.mp3';
+    g1Note.type     = 'audio/mpeg';
     g1Note.play();
   });
   $('#ab2').mousedown(function(){
-    ab2Note.currentTime = 0;
+    var ab2Note      = document.createElement('audio');
+    ab2Note.src      = 'audiomp3/ab2redo.mp3';
+    ab2Note.type     = 'audio/mpeg';
     ab2Note.play();
   });
   $('#bb2').mousedown(function() {
-    bb2Note.currentTime = 0;
+    var bb2Note      = document.createElement('audio');
+    bb2Note.src      = 'audiomp3/bb2.mp3';
+    bb2Note.type     = 'audio/mpeg';
     bb2Note.play();
   });
   $('#c2').mousedown(function() {
-    c2Note.currentTime = 0;
+    var c2Note      = document.createElement('audio');
+    c2Note.src      = 'audiomp3/c2.mp3';
+    c2Note.type     = 'audio/mpeg';
     c2Note.play();
   });
   $('#db2').mousedown(function() {
-    db2Note.currentTime = 0;
+    var db2Note      = document.createElement('audio');
+    db2Note.src      = 'audiomp3/db2.mp3';
+    db2Note.type     = 'audio/mpeg';
     db2Note.play();
   });
   $('#eb2').mousedown(function() {
-    eb2Note.currentTime = 0;
+    var eb2Note      = document.createElement('audio');
+    eb2Note.src      = 'audiomp3/eb2.mp3';
+    eb2Note.type     = 'audio/mpeg';
     eb2Note.play();
   });
   $('#f2').mousedown(function() {
-    f2Note.currentTime = 0;
+    var f2Note      = document.createElement('audio');
+    f2Note.src      = 'audiomp3/f2.mp3';
+    f2Note.type     = 'audio/mpeg';
     f2Note.play();
   });
   $('#g2').mousedown(function() {
-    g2Note.currentTime = 0;
+    var g2Note      = document.createElement('audio');
+    g2Note.src      = 'audiomp3/g2.mp3';
+    g2Note.type     = 'audio/mpeg';
     g2Note.play();
   });
   $('#ab3').mousedown(function() {
-    ab3Note.currentTime = 0;
+    var ab3Note      = document.createElement('audio');
+    ab3Note.src      = 'audiomp3/ab3.mp3';
+    ab3Note.type     = 'audio/mpeg';
     ab3Note.play();
   });
 
