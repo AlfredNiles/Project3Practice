@@ -1,7 +1,14 @@
 body {
-  background-color: grey;
+  background-color: black;
 }
 
+p {
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
 
 /*This is the style for our boxs' container. With it we can position and center the boxes in the browser.*/
 
@@ -14,22 +21,23 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 22%;
   right: 0;
 }
 
 /*This is the style that give our music boxes shape*/
 
 .box {
-
-  border-radius: 20px;
-  width: 25px;
-  height: 70px;
-  margin-left: 25px;
-  margin-top: 50%;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font: 'Josefin Sans', sans-serif;
+  width: 50px;
+  height: 100px;
   float: left;
+  margin-left: 10px;
 }
-
 /*These are the styles that individually color our boxes and also determine the hover and active states*/
 
 #ab1:hover {
@@ -44,7 +52,8 @@ body {
 
 #ab1 {
   background-color: #3e181b;
-  border: 3px solid #db1d2d;
+  border: 5px #db1d2d;
+  border-style: outset;
 }
 
 
@@ -63,7 +72,8 @@ body {
 
 #bb1 {
   background-color: #422018;
-  border: 3px solid #f0421c;
+  border: 5px #f0421c;
+  border-style: outset;
 }
 
 
@@ -81,7 +91,8 @@ body {
 
 #c1 {
   background-color: #45391b;
-  border: 3px solid #fec02d;
+  border: 5px #fec02d;
+  border-style: outset;
 }
 
 
@@ -99,7 +110,8 @@ body {
 
 #db1 {
   background-color: #193c29;
-  border: 3px solid #20d071;
+  border: 5px #20d071;
+  border-style: outset;
 }
 
 
@@ -117,7 +129,8 @@ body {
 
 #eb1 {
   background-color: #18323e;
-  border: 3px solid #1a9ddb;
+  border: 5px #1a9ddb;
+  border-style: outset;
 }
 
 
@@ -135,7 +148,8 @@ body {
 
 #f1 {
   background-color: #331f35;
-  border: 3px solid #a13fad;
+  border: 5px #a13fad;
+  border-style: outset;
 }
 
 
@@ -153,7 +167,8 @@ body {
 
 #g1 {
   background-color: #43293d;
-  border: 3px solid #f26fd4;
+  border: 5px #f26fd4;
+  border-style: outset;
 }
 
 
@@ -171,7 +186,8 @@ body {
 
 #ab2 {
   background-color: #3e181b;
-  border: 3px solid #db1d2d;
+  border: 5px #db1d2d;
+  border-style: outset;
 }
 
 
@@ -190,7 +206,8 @@ body {
 
 #bb2 {
   background-color: #422018;
-  border: 3px solid #f0421c;
+  border: 5px #f0421c;
+  border-style: outset;
 }
 
 
@@ -208,7 +225,8 @@ body {
 
 #c2 {
   background-color: #45391b;
-  border: 3px solid #fec02d;
+  border: 5px #fec02d;
+  border-style: outset;
 }
 
 
@@ -226,7 +244,8 @@ body {
 
 #db2 {
   background-color: #193c29;
-  border: 3px solid #20d071;
+  border: 5px #20d071;
+  border-style: outset;
 }
 
 
@@ -244,7 +263,8 @@ body {
 
 #eb2 {
   background-color: #18323e;
-  border: 3px solid #1a9ddb;
+  border: 5px #1a9ddb;
+  border-style: outset;
 }
 
 
@@ -262,7 +282,8 @@ body {
 
 #f2 {
   background-color: #331f35;
-  border: 3px solid #a13fad;
+  border: 5px #a13fad;
+  border-style: outset;
 }
 
 
@@ -280,7 +301,8 @@ body {
 
 #g2 {
   background-color: #43293d;
-  border: 3px solid #f26fd4;
+  border: 5px #f26fd4;
+  border-style: outset;
 }
 
 
@@ -298,5 +320,6 @@ body {
 
 #ab3 {
   background-color: #3e181b;
-  border: 3px solid #db1d2d;
+  border: 5px #db1d2d;
+  border-style: outset;
 }
