@@ -1,6 +1,8 @@
 $(document).ready( function() {
 
-  // This controls the button for the c note.
+  // This should be the way the keyboard works with the buttons
+
+
 
   // This variable calls the cNote audio element in the HTML.
   var bb1Note = document.getElementById('bb1Audio');
@@ -110,7 +112,5 @@ $(document).ready( function() {
     ab3Note.type     = 'audio/mpeg';
     ab3Note.play();
   });
-
-
 
 });

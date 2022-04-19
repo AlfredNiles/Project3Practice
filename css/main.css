@@ -2,6 +2,7 @@ body {
   background-color: grey;
 }
 
+
 /*This is the style for our boxs' container. With it we can position and center the boxes in the browser.*/
 
 #instrument {
@@ -11,6 +12,10 @@ body {
   padding-top: 0px;
   margin: auto;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /*This is the style that give our music boxes shape*/
@@ -18,10 +23,11 @@ body {
 .box {
 
   border-radius: 20px;
-  width: 22px;
-  height: 22px;
-  margin-left: 10px;
-  margin-top: 6px;
+  width: 25px;
+  height: 70px;
+  margin-left: 25px;
+  margin-top: 50%;
+  float: left;
 }
 
 /*These are the styles that individually color our boxes and also determine the hover and active states*/
